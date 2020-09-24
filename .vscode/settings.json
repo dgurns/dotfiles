@@ -1,0 +1,36 @@
+{
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "prettier.singleQuote": true,
+  "editor.fontSize": 13,
+  "editor.tabSize": 2,
+  "terminal.integrated.rendererType": "dom",
+  "editor.suggestSelection": "first",
+  "editor.tabCompletion": "on",
+  "editor.rulers": [80, 120],
+  "go.gopath": "/Users/dangurney/Desktop/DanStuff/Dev/PH-Dev",
+  "search.exclude": {
+    "**/node_modules": false,
+    "**/bower_components": false
+  },
+  "go.testFlags": ["-v"],
+  "go.testTimeout": "600s",
+  "eslint.alwaysShowStatus": true,
+  "editor.formatOnSave": true,
+  "eslint.enable": true,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "explorer.confirmDragAndDrop": false,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "go.formatTool": "goimports",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "git.ignoreLimitWarning": true
+}
