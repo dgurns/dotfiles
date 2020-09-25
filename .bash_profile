@@ -46,6 +46,7 @@ alias build='yarn build'
 # alias ph-start='$GOPATH/bin/run-_____server____'
 
 alias branch='git branch'
+alias delete-branches='git branch --merged | egrep -v "(^\*|master|develop|development|staging)" | xargs git branch -d'
 alias master='git checkout master'
 alias develop='git checkout develop'
 alias status='git status'
