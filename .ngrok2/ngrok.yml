@@ -1,0 +1,7 @@
+authtoken: auth_token_goes_here
+
+tunnels:
+  gw-api:
+    proto: http
+    addr: 4000
+    subdomain: gig-window-api
