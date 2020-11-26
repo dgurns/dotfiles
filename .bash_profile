@@ -1,10 +1,5 @@
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
-export ANDROID_HOME=/Users/dangurney/Library/Android/sdk
-export ANDROID_SDK_HOME=/Users/dangurney/Library/Android/sdk
-export PATH=${PATH}:${ANDROID_HOME}/tools
-export PATH=${PATH}:${ANDROID_HOME}/platform-tools
-export PATH="$PATH:$HOME/.composer/vendor/bin"
 export GOPATH=/Users/dangurney/Desktop/DanStuff/Dev/PH-Dev
 # export GNPATH=/Users/dangurney/Desktop/DanStuff/Dev/PH-Dev/src/github.com/___user___/___repo___
 
@@ -31,19 +26,15 @@ alias personal-site='cd /Users/dangurney/Sites/DanGurneyAppReact'
 #Common terminal shortcuts
 alias bashrc='code ~/.bashrc'
 alias bash-profile='code ~/.bash_profile'
+alias source-bash-profile='source ~/.bash_profile'
 
 alias u='cd ..'
 alias uu='cd ../..'
 alias uuu='cd ../../..'
 alias c='clear'
 
-alias ngrok='/Users/dangurney/Developer/ngrok'
-
 alias start='yarn start'
 alias build='yarn build'
-
-# alias ph-compile='$GOPATH/bin/___setup___ compile all'
-# alias ph-start='$GOPATH/bin/run-_____server____'
 
 alias branch='git branch'
 alias delete-branches='git branch --merged | egrep -v "(^\*|master|develop|development|staging)" | xargs git branch -d'
@@ -54,9 +45,3 @@ alias log='git log --oneline'
 alias add='git add .'
 alias push='git push'
 alias pull='git pull'
-
-
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/Users/dangurney/.sdkman"
-[[ -s "/Users/dangurney/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/dangurney/.sdkman/bin/sdkman-init.sh"
-

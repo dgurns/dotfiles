@@ -9,19 +9,15 @@
   "editor.fontSize": 13,
   "editor.tabSize": 2,
   "terminal.integrated.rendererType": "dom",
+  "terminal.integrated.shellArgs.linux": ["-l"],
   "editor.suggestSelection": "first",
   "editor.tabCompletion": "on",
   "editor.rulers": [80, 120],
-  "go.gopath": "/Users/dangurney/Desktop/DanStuff/Dev/PH-Dev",
   "search.exclude": {
     "**/node_modules": false,
     "**/bower_components": false
   },
-  "go.testFlags": ["-v"],
-  "go.testTimeout": "600s",
   "eslint.alwaysShowStatus": true,
-  "editor.formatOnSave": true,
-  "eslint.enable": true,
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "editor.codeActionsOnSave": {
@@ -30,7 +26,37 @@
   "javascript.updateImportsOnFileMove.enabled": "never",
   "explorer.confirmDragAndDrop": false,
   "typescript.updateImportsOnFileMove.enabled": "never",
-  "go.formatTool": "goimports",
   "diffEditor.ignoreTrimWhitespace": false,
-  "git.ignoreLimitWarning": true
+  "extensions.ignoreRecommendations": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "go.useLanguageServer": true,
+  "[go]": {
+    "breadcrumbs.showConstructors": true,
+    "editor.insertSpaces": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "[go.mod]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "terminal.integrated.shell.osx": "/bin/bash",
+  "go.alternateTools": {},
+  "gopls": {
+    "experimentalWorkspaceModule": true
+  },
+  "codespaces.accountProvider": "Microsoft",
+  "dotfiles.repository": "https://github.com/dgurns/dotfiles.git",
+  "terminal.integrated.shell.linux": "/bin/bash",
+  "settingsSync.keybindingsPerPlatform": false,
+  "workbench.colorTheme": "Default Dark+",
+  "files.autoSave": "off"
 }
