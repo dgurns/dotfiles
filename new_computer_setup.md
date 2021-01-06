@@ -1,0 +1,17 @@
+- Download `iTerm2`
+- Copy `~/.bash_profile`
+- Copy `~/.ngrok2/ngrok.yml` for Ngrok config
+- Copy `/etc/ssh/ssh_config` file for SSH config
+- Copy `~/.ssh` directory with SSH keys
+- Install `XCode Command Line Tools`
+- Install `brew`
+- Install `go`
+- Install `nvm` and a version of Node (currently 12.13.0)
+- Install `yarn`
+- Install `Docker for Mac`
+- Download `VSCode`
+- Download `Brave`
+- Download `Insomnia`
+- Download https://github.com/exelban/stats
+- Download `DBngin`
+- Download `TablePlus`
