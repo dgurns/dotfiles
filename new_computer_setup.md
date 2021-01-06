@@ -10,6 +10,7 @@
 - Install `yarn`
 - Install `Docker for Mac`
 - Download `VSCode`
+- Copy VSCode settings from `.vscode`
 - Download `Brave`
 - Download `Insomnia`
 - Download https://github.com/exelban/stats
