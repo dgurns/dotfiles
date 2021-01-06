@@ -56,6 +56,12 @@ Host ph-staging
   IdentityFile ~/.ssh/id_rsa_3
   IdentitiesOnly yes
 
+Host ph-prod
+  HostName backend.predictionhealth.com
+  User bartleby
+  IdentityFile ~/.ssh/id_rsa_3
+  IdentitiesOnly yes
+
 Host gw-staging
   HostName api-staging.gigwindow.com
   User root

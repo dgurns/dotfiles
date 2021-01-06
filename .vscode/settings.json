@@ -28,9 +28,9 @@
   "typescript.updateImportsOnFileMove.enabled": "never",
   "diffEditor.ignoreTrimWhitespace": false,
   "extensions.ignoreRecommendations": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
+  "editor.defaultFormatter": null,
   "[typescriptreact]": {
+    "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "go.useLanguageServer": true,
@@ -58,5 +58,16 @@
   "terminal.integrated.shell.linux": "/bin/bash",
   "settingsSync.keybindingsPerPlatform": false,
   "workbench.colorTheme": "Default Dark+",
-  "files.autoSave": "off"
+  "files.autoSave": "off",
+  "editor.formatOnPaste": true,
+  "[jsonc]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.suggest.insertMode": "replace",
+    "gitlens.codeLens.scopes": ["document"]
+  },
+  "editor.accessibilitySupport": "off",
+  "window.zoomLevel": 0
 }
